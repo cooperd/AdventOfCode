@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Dvir Cooper",
+      "authorEmail": "cooperdvir@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
