@@ -31,7 +31,6 @@
   },
   "scripts": {
     "prepublishOnly": "nsp check",
-    "pretest": "eslint .",
     "precommit": "lint-staged",
     "test": "jest",
     "start": "node lib/index.js"
@@ -42,31 +41,14 @@
       "git add"
     ],
     "*.json": [
-      "prettier --write",
       "git add"
     ]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
     "env": {
       "jest": true,
       "node": true
-    },
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "printWidth": 90
-        }
-      ]
-    },
-    "plugins": [
-      "prettier"
-    ]
+    }
   },
   "repository": "https://github.com/cooperd/AdventOfCode.git",
   "jest": {
