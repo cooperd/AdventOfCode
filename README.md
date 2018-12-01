@@ -12,7 +12,7 @@ $ npm install
 You can run it with my input by running
 
 ```sh
-$ npm run start
+$ npm run start [year]
 ```
 You also can run my tests by running
 
